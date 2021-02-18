@@ -1,0 +1,103 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(47, 117, 190, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(47, 117, 190, 1) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(47, 117, 190, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#2f75be", GradientType=1);
+    display: block;
+    margin-bottom: 8px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 60px;
+}
+
+h1 {
+    color: rgb(238, 229, 229);
+    margin-top: 40px;
+    text-align: center;
+    font-size: 38px;
+    background-color: hsla(0, 0%, 0%, 0.1);
+}
+
+.form-control {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(163, 163, 163);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.btn-add {
+    background-color: white;
+    padding: 0px 63px;
+    height: 1cm;
+    width: 5cm;
+    text-align: center;
+    float: inline-end;
+}
+
+dl {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+dt {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(163, 163, 163);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.remove-products {
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#counter {
+    background-color: transparent;
+    border: 0px solid;
+    font-weight: bold;
+}
+
+.myButton {
+    box-shadow: inset 0px 1px 0px 0px #bee2f9;
+    background: linear-gradient(to bottom, #63b8ee 5%, #175a99 100%);
+    background-color: #63b8ee;
+    border-radius: 6px;
+    border: 1px solid #3866a3;
+    display: inline-block;
+    cursor: pointer;
+    color: #14396a;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #7cacde;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #175a99 5%, #63b8ee 100%);
+    background-color: #175a99;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}

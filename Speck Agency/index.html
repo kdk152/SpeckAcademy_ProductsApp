@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Products App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="cssStyles.css">
+    <link rel="stylesheet" href="webfonts">
+</head>
+
+<body>
+    <h1>Products App</h1>
+    <label for="candidate" style="color: white; font-size: 20px;">Product title:</label><br><br>
+    <div class="input-group">
+        <input type="text" id="candidate" class="form-control">
+        <div class="input-group-append"></div>
+        <script src="addingItem.js"></script>
+        <button onclick="addItem(), clearText(), countElements()" type="button" class="myButton">Add product</button>
+        <br>
+        <br>
+    </div>
+    </div>
+    <div>
+        <label for="products-number" style="color: white; font-size: 20px;">Number of products: </label>
+        <input type="text" id="counter" value="0" style="color: white; font-size: 20px;">
+        <label for="remove-products" onclick="removeAllItems()" class="remove-products"><ins>Remove all products</ins></label>
+    </div>
+    <br>
+    <!--
+    <img src="shoppingCart.jpg" alt="ShoppingCart.com" width="550" height="600">
+    <br>
+-->
+    <div>
+        <dl id="dynamic-list">
+
+        </dl>
+    </div>
+
+</body>
+
+</html>
